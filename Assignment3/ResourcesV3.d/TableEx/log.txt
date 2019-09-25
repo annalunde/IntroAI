@@ -1,0 +1,29 @@
+?- runExample(example1, C, P, E).
+Nodes expanded = 74
+C = 32,
+P = [a, c, b, d, e, a],
+E = 74 .
+
+?- runExample(example2, C, P, E).
+Nodes expanded = 78
+C = 46,
+P = [a, e, c, b, d, a],
+E = 78 .
+
+?- runExample(example3, C, P, E).
+Nodes expanded = 78
+C = 23,
+P = [a, c, b, e, d, a],
+E = 78 .
+
+?- runExample(example4, C, P, E).
+Nodes expanded = 187
+C = 76,
+P = [a, c, b, f, d, e, a],
+E = 187 .
+
+?- runExample(example5, C, P, E).
+Nodes expanded = 32
+C = 64,
+P = [a, d, b, c, a],
+E = 32 .
